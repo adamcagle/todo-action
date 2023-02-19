@@ -1,4 +1,4 @@
-# TODO: Improve support for markdown in comments
+# TODO: Improve support for markdown in todo comments
 # Markdown sort of works, but it seems that the body is sometimes truncated prematurely. I'm not sure what causes this.
 # I can link to prior issues such as #3 and #4
 # I can add a [hyperlink](https://www.google.com)
