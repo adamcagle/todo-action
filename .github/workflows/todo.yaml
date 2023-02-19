@@ -6,6 +6,8 @@ jobs:
     steps:
       - uses: "actions/checkout@master"
       - name: "TODO to Issue"
-        uses: "alstr/todo-to-issue-action@v4.8"
-        id: "todo"
-        
+        uses: "alstr/todo-to-issue-action@v4"
+          with:
+            CLOSE_ISSUES: true
+            AUTO_P: false
+            ISSUE_TEMPLATE: "{{ body }}\n\n## URL\n{{ url }}\n\n## Snippet\n\n{{ snippet }}"
